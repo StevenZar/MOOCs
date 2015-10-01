@@ -1,5 +1,0 @@
-#.gitignore sample
-#ignore all files in this directory ...
-#*
-#... except for this one
-!.gitignore
