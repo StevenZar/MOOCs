@@ -141,17 +141,42 @@ public class EarthquakeCityMap extends PApplet {
 		textSize(12);
 		text("Earthquake Key", 50, 75);
 		
-		fill(color(255, 0, 0));
-		ellipse(50, 125, 15, 15);
-		fill(color(255, 255, 0));
-		ellipse(50, 175, 10, 10);
-		fill(color(0, 0, 255));
-		ellipse(50, 225, 5, 5);
+		fill(color(147,31,36));
+		triangle(55, 105, 65, 105, 60, 95);
 		
+		// Add description
 		fill(0, 0, 0);
-		text("5.0+ Magnitude", 75, 125);
-		text("4.0+ Magnitude", 75, 175);
-		text("Below 4.0", 75, 225);
+		text("City Marker", 75, 100);
+		text("Land Quake", 75, 120);
+		text("Ocean Quake", 75, 140);
+		text("Size ~ Magnitude", 50, 160);
+		fill(255, 255, 255);
+		ellipse(60, 120, 10, 10);
+		rect(55, 135, 10, 10);
+		// Add shapes
+		fill(color(255, 255, 0));
+		ellipse(60, 190, 12, 12);
+		fill(color(0, 0, 255));
+		ellipse(60, 210, 12, 12);
+		fill(color(255, 0, 0));
+		ellipse(60, 230, 12, 12);
+		// More descriptions
+		textAlign(LEFT, CENTER);
+		fill(0, 0, 0);
+		text("Shallow", 75, 190);
+		text("Intermediate", 75, 210);
+		text("Deep", 75, 230);
+		text("Past hour", 75, 250);
+		text("Past day", 75, 270);
+		// More shapes
+		fill(255, 255, 255);
+		ellipse(60, 250, 12, 12);
+		line(50, 240, 70, 260);
+		line(50, 260, 70, 240);
+		ellipse(60, 270, 12, 12);
+		line(70, 270, 50, 270);
+		line(60, 260, 60, 280);
+		
 	}
 
 	
